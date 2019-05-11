@@ -1,4 +1,4 @@
-package com.produtos.apirest.com.produtos.apirest.repository;
+package com.produtos.apirest.com.produtos.apirest.repositories;
 
 import com.produtos.apirest.com.produtos.apirest.models.Product;
 import org.springframework.data.jpa.repository.JpaRepository;

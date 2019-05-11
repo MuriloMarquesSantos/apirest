@@ -24,10 +24,6 @@ public class Product implements Serializable {
         return id;
     }
 
-    public void setId(Long id) {
-        this.id = id;
-    }
-
     public static long getSerialVersionUID() {
         return serialVersionUID;
     }
@@ -36,23 +32,11 @@ public class Product implements Serializable {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
-
     public BigDecimal getQuantity() {
         return quantity;
     }
 
-    public void setQuantity(BigDecimal quantity) {
-        this.quantity = quantity;
-    }
-
     public BigDecimal getAmount() {
         return amount;
-    }
-
-    public void setAmount(BigDecimal amount) {
-        this.amount = amount;
     }
 }
